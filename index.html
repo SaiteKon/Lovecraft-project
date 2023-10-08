@@ -6,32 +6,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Справочник по Лавкрафту</title>
-    <script src="js/app.js" defer></script>
+    
+    <script src="libs/gsap/gsap.min.js" defer></script>
+    <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
 
+    <script src="js/app.js" defer></script>
+    
 </head>
 
 <body>
 
-    <header class="main-header">
-        <div class="layers">
-            <div class="layer__header">
-                <div class="layers__caption">Welcome to Parallax</div>
-                <div class="layers__title">Fairy Forest</div>
-            </div>
-            <div class="layer layers__base" style="background-image: url(img/Alu-1.png);"></div>
-            <div class="layer layers__title" style="background-image: url(img/Alu-1.png);"></div>
-            <div class="layer layers__front" style="background-image: url(img/Alu-1.png);"></div>
-        </div>
-    </header>
+    <div class="wrapper">
+        <div class="content">
 
-    <article class="main-article" style="background-image: url(img/Alu-1.png);">
-        <div class="main-article__content">
-            <h2 class="main-article__header">To Be Continued</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe eum eligendi iusto, rem libero beatae velit, aperiam expedita id consequuntur, 
-                eveniet adipisci esse soluta! Sunt soluta earum distinctio quod dolorum. Consectetur, placeat.</p>
+            <header class="main-header">
+                <div class="layers">
+                    <div class="layer__header">
+                        <div class="layers__caption">Говард Лавкрафт</div>
+                        <div class="layers__title">Бестиарий</div>
+                    </div>
+                    <div class="layer layers__base" style="background-image: url(img/base-ktulchu.png);"></div>
+                    <div class="layer layers__middle" style="background-image: url(img/ktulchu-middle.png);"></div>
+                    <div class="layer layers__front" style="background-image: url(img/ship-front-ktulchu.png);"></div>
+                </div>
+            </header>
+        
+            <article class="main-article" style="background-image: url(img/ktulchu-lower.png);">
+                <div class="main-article__content">
+                    <h2 class="main-article__header">В разработке...</h2>
+                    <p class="main-article__paragraph">В финальной версии сайта здесь должны появиться монстры, придуманные Говардом Лавкрафтом.</p>
+                </div>
+                <div class="copy">© Крупин Максим</div>
+            </article>
+
         </div>
-        <div class="copy">© Saite Quietomi</div>
-    </article>
+    </div>
 
 </body>
 </html>
